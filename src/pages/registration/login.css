@@ -1,0 +1,71 @@
+/* login.css */
+
+/* Form container styles */
+.login_Form {
+    background: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Heading styles */
+.login_Form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4285f4;
+    margin-bottom: 1.5rem;
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Button styles */
+.btn-primary {
+    width: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+    background-color: #3c78dc;
+}
+
+/* Change button color on click */
+.btn-primary:active {
+    background-color: #3367d6;
+}
+
+/* Text below button styles */
+.login_Form .text-sm {
+    color: #5f6368;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Link styles */
+.login_Form .text-pink-500 {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login_Form .text-pink-500:hover {
+    text-decoration: underline;
+}

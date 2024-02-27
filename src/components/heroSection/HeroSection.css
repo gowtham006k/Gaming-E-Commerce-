@@ -1,0 +1,17 @@
+/* HeroSection.css */
+
+/* Apply fade effect to images */
+img {
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Ensure current image is visible */
+  .opacity-100 {
+    opacity: 1;
+  }
+  
+  /* Ensure other images are hidden */
+  .opacity-0 {
+    opacity: 0;
+  }
+  

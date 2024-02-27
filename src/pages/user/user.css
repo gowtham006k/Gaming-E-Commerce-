@@ -1,0 +1,151 @@
+/* navbar.css */
+
+/* Container */
+.container {
+    margin-top: 2rem;
+}
+
+/* Top Section */
+.top {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bg-pink-50 {
+    background-color: #FED7E2;
+    border: 1px solid #FBB6CE;
+}
+
+.bg-pink-50 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Text */
+.top h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Bottom Section */
+.bottom {
+    margin-top: 2rem;
+}
+
+/* Order Details Heading */
+.bottom h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Order Cards */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.border-pink-100 {
+    border-color: #FBB6CE;
+}
+
+/* Left Section of Order Card */
+.w-full {
+    width: 100%;
+}
+
+.border-r {
+    border-right-width: 1px;
+}
+
+.bg-pink-50 {
+    background-color: #FED7E2;
+}
+
+/* Order Details */
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-gray-900 {
+    color: #4A5568;
+}
+
+.text-red-800 {
+    color: #C53030;
+}
+
+.text-green-800 {
+    color: #2F855A;
+}
+
+.first-letter\:uppercase:first-letter {
+    text-transform: uppercase;
+}
+
+/* Right Section of Order Card */
+.flex-1 {
+    flex: 1;
+}
+
+.divide-y {
+    border-bottom-width: 1px;
+}
+
+/* Product Image */
+.object-contain {
+    object-fit: contain;
+}
+
+/* Product Details */
+.ml-5 {
+    margin-left: 1.25rem;
+}
+
+ 
+/* Quantity */
+.text-right {
+    text-align: right;
+}
+
+/* Total Price */
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Loader */
+.relative {
+    position: relative;
+}
+
+.top-10 {
+    top: 2.5rem;
+}
+
+/* Hover Effect */
+li:hover {
+    background-color: #FED7E2;
+    transition: background-color 0.3s ease;
+}

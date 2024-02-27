@@ -1,0 +1,13 @@
+/* navbar.css */
+
+/* Increase padding for navigation menu items */
+ul li {
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+/* Define hover effect for menu buttons */
+ul li:hover {
+    background-color: #4a5568; /* Change background color on hover */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+    border-radius: 0.25rem; /* Add border radius */
+}
